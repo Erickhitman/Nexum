@@ -27,6 +27,6 @@ cd nexum
 
 ## Créditos
 
-Desenvolvido por **Erick Soares** 
-Professor orientador **Danilo Coelho**
+Desenvolvido por **Erick Soares** <br>
+Professor orientador **Danilo Coelho**<br>
 SENAI Frederico Jacob — SP
