@@ -557,8 +557,8 @@ div > a:hover > div {
   }
 
   .header-title {
-    min-width: unset;
-    flex: unset;
+    min-width: 0;
+    flex: 0;
   }
 
   .header-title h1 {
@@ -570,7 +570,7 @@ div > a:hover > div {
   }
 
   .nav {
-    flex: unset;
+    flex: 0;
     justify-content: center;
     flex-wrap: wrap;
     gap: 6px;
@@ -594,7 +594,7 @@ div > a:hover > div {
 
   .logo-vermelha > img {
     width: 60vw;
-    min-width: unset;
+    min-width: 0;
   }
 
   .line {
