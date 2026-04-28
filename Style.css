@@ -233,7 +233,7 @@ div > a:hover > div {
   container-type: inline-size;
 }
 
-@container (max-width: 650px) {
+@container (max-width: 768px) {
   .line {
     display: none;
   }
@@ -541,4 +541,78 @@ div > a:hover > div {
   justify-content: end;
   flex: 1;
   margin-right: 2.5%;
+}
+
+
+@media (max-width:768px){
+  .flex {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0;
+  }
+
+  .logo {
+    justify-content: center;
+    margin: 8px 0;
+  }
+
+  .header-title {
+    min-width: unset;
+    flex: unset;
+  }
+
+  .header-title h1 {
+    font-size: 32px;
+  }
+
+  .header-title p {
+    font-size: 15px;
+  }
+
+  .nav {
+    flex: unset;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 6px;
+    padding: 6px 10px;
+  }
+
+  .nav > a {
+    font-size: 13px;
+    padding: 0 8px;
+  }
+
+  .logo-senai > img {
+    height: 50px;
+  }
+
+  .display {
+    flex-direction: column;
+    padding: 40px 24px;
+    gap: 30px;
+  }
+
+  .logo-vermelha > img {
+    width: 60vw;
+    min-width: unset;
+  }
+
+  .line {
+    display: none;
+  }
+
+  .senai-title {
+    font-size: 2.6rem;
+  }
+
+  .flex-areas {
+    margin: 5% 4%;
+  }
+
+  .caixas,
+  .caixas-2,
+  .caixas-3,
+  .caixas-4 {
+    width: 90%;
+  }
 }
